@@ -12,7 +12,7 @@ const MenuLink: React.FC<MenuLinkProps> = ({
     return (
         <div 
             onClick={onClick}
-            className="px-5 py-4 cursor-pointer hover:bg-gray-100 trasition"
+            className="px-5 py-4 cursor-pointer hover:bg-gray-100 transition"
         >
             {label}
         </div>
